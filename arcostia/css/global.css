@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?98639570');
+    src: url('../font/fontello.eot?98639570#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff?98639570') format('woff'),
+         url('../font/fontello.ttf?98639570') format('truetype'),
+         url('../font/fontello.svg?98639570#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+.fo{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+}      
+
+
+.row{
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1{
+	color: #fff;
+	font-family: 'Damion', cursive;
+	font-size: 35px;
+}
+
+h2{
+	color: #fff;
+	font: 300 40px/60px 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+h3{
+	color: #fff;
+	font: 700 20px/20px 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+h5{
+	color: #fff;
+	font: 300 32px/32px 'Lato', sans-serif;
+}
+
+h6{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+@media screen and (min-width: 640px){
+	h1{
+		font-size: 40px;
+	}
+
+	h2{
+		font-size: 50px;
+		line-height: 80px;
+	}
+
+	h4{
+		font-size: 28px;
+		line-height: 67px;
+	}
+
+	h6{
+		font-size: 27px;
+		line-height: 39px;
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+	h1{
+		margin-top: 12px;
+    	font-size: 50px;
+	}
+
+	h2{
+		font-size: 60px;
+		line-height: 90px;
+		margin-bottom: 6px;
+	}
+
+	h4{
+		color: #fff;
+	}
+
+	h6{
+		font-size: 20px;
+		line-height: 42px;
+	}
+}	
+
+@media screen and (min-width: 1141px){
+	.row{
+		max-width: 1100px;
+	}
+}

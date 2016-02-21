@@ -1,0 +1,65 @@
+.facts{
+	background: url("../images/about.jpg");
+	background-size: cover;
+	padding: 194px 10px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.facts-block .blocka{
+	margin-bottom: 40px;
+}
+
+.facts-block i{
+	display: inline-block;
+	width: 165px;
+	height: 165px;
+	font-size: 32px;
+	border: 2px solid #956512;
+	border-radius: 50%;
+	line-height: 165px;
+	color: #fff;
+}
+
+.facts-block p{
+	font-size: 44px;
+    margin-top: 25px;
+	margin-bottom: 2px;
+}
+
+.facts-block span{
+	display: block;
+	font-size: 27px;
+}
+
+.facts-block i:hover{
+	border: 2px solid #fff;
+	color: #956512;
+}
+
+@media screen and (min-width: 640px){
+	.facts-block {
+		overflow: hidden;
+	}
+
+	.blocka{
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (min-width: 1170px){
+	.blocka{
+		width: 169px;
+		float: left;
+		display: inline-block;
+		margin-right: 164px;
+		margin-bottom: 0;
+	}
+
+	.blocka:last-child{
+		margin-right: 0;
+	}
+}

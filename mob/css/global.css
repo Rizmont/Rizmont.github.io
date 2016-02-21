@@ -1,0 +1,122 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?96582920');
+      src: url('../font/fontello.eot?96582920#iefix') format('embedded-opentype'),
+           url('../font/fontello.woff?96582920') format('woff'),
+           url('../font/fontello.ttf?96582920') format('truetype'),
+           url('../font/fontello.svg?96582920#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+
+a{
+	text-decoration: none;
+}
+
+
+h2{
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	line-height: 32px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+h2:after{
+	position: absolute;
+	content: "";
+	border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+	height: 5px;
+	width: 88px;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+h3{
+	font-size: 15px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.text-head, address{
+	font-size: 18px !important;
+    line-height: 20px !important;
+}
+
+p{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.fo
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none; 
+}
+
+.row{
+ 	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+@media screen and (min-width: 640px){
+	h2{
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	h3{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	
+
+	.text-head, address{
+		font-size: 16px !important;
+    	line-height: 20px !important;
+	}
+
+	
+	p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+@media screen and (min-width: 1025px){
+	.row{
+		max-width: 1024px;
+		overflow: hidden;
+	}
+
+	h2{
+		font-size: 43px;
+		line-height: 48px;
+	}
+
+	h3{
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	p{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	
+	.text-head, address{
+		width: 650px;
+		margin: 0 auto;
+		font-size: 19px !important;
+    	line-height: 24px !important;
+	}
+	
+}

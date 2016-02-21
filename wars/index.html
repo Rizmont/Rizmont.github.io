@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<title>ZEences Design</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logo.ico" />
+	<link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/alert.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function(){
+ 				 $('.bxslider').bxSlider({
+ 				 	pager: false,
+ 				 	auto: true
+ 				 });
+			});
+	</script>
+	<!--Карусуль2-->
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css" />
+	<script src="js/owl.carousel.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('body').append('<div id="toTop">^ Наверх</div>');
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 200) {
+				$('#toTop').fadeIn();	
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+	 
+		$('#toTop').click(function() {
+			$('body, html').animate({scrollTop: 0}, 400);
+		});	
+	});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+		<audio src="bgsound.mp3" autoplay></audio>
+			<div class="logo">
+				<h1><a href="index.html">ZEences Design</a></h1>
+			</div>
+			<div class="links">
+				<ul>
+					<li><a href="#"><img src="images/1.png" alt="link"></a></li>
+					<li><a href="#"><img src="images/2.png" alt="link"></a></li>
+					<li><a href="#"><img src="images/3.png" alt="link"></a></li>
+					<li><a href="#"><img src="images/4.png" alt="link"></a></li>
+					<li><a href="#"><img src="images/5.png" alt="link"></a></li>
+					<li><a href="#"><img src="images/6.png" alt="link"></a></li>
+					<li><a href="#"><img src="images/7.png" alt="link"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="nav">
+	        <ul>
+	            <li><a href="#"><span>Dashboard</span></a></li>
+	            <li><a href="#"><span>Posts</span></a></li>
+	            <li class="dropdown"><a href="#"><span>Users</span></a>
+	                <ul>
+	                    <li><a href="#"><span>Joshua Hibbert</span></a></li>
+	                    <li><a href="#"><span>Kyle Bragger</span></a></li>
+	                    <li><a href="#"><span>Jack Rugile</span></a></li>
+	                </ul>
+	            </li>
+	            <li class="dropdown"><a href="#"><span>Settings</span></a>
+	                <ul>
+	                    <li><a href="#"><span>General</span></a></li>
+	                    <li><a href="#"><span>SEO</span></a></li>
+	                    <li><a href="#"><span>Style</span></a></li>
+	                    <li><a href="#"><span>Plugins</span></a></li>
+	                    <li><a href="#"><span>Security</span></a></li>
+	                </ul>
+	            </li>
+	            <li><a href="#"><span>View Site</span></a></li>
+	        </ul>
+	    </div>
+		<div id="content">
+			<div class="slider">
+				<ul class="bxslider">
+  					<li><img src="images/slide1.jpg" alt="slide" /></li>
+  					<li><img src="images/slide2.jpg" alt="slide" /></li>
+ 					<li><img src="images/slide3.jpg" alt="slide" /></li>
+ 					<li><img src="images/slide4.jpg" alt="slide" /></li>
+				</ul>
+			</div>
+			<h2>Aenean fringilla aliquam est, a porttitor arcu euismod et. Maecenas rutrum erat at arcu porta interdum. Cras convallis ligula ac risus imperdiet placerat.</h2>
+			<div class="border"></div>
+			<div id="service">
+				<h3>what we do</h3>
+				<div class="leftcol">
+					<p>Vivamus sodales pharetra libero, a tincidunt nisi condimentum a. Quisque non sodales nislero. Integer a tellus eget arcu fringilla molestie quis vel eros. Praesent fermentum vulputate purusa ornare. Vivamus imperdiet, quam et adipiscing placerat, nibh odio scelerisque risus, vitaere 4accumsan mi justo et quam. Pellentesque quis felis quis tortor porttitor lobortis nec ac risus.</p>
+				</div>
+				<div class="rightcol">
+					<ul>
+						<li><a href="#">Vivamus at magna non ipsum.</a></li>
+						<li><a href="#">Etiam pharetra pretium eros.</a></li>
+						<li><a href="#">Curabitur porttitor ipsum nec magna.</a></li>
+						<li><a href="#">Maecenas cursus arcu a nulla tristique.</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="service-list">
+				<ul>
+					<li>
+						<img src="images/service1.png" alt="service-list" />
+						<h4>web desıgn</h4>
+						<p>Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+					</li>
+					<li>
+						<img src="images/service2.png" alt="service-list" />
+						<h4>photography</h4>
+						<p>Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+					</li>
+					<li>
+						<img src="images/service3.png" alt="service-list" />
+						<h4>motion graphic</h4>
+						<p>Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+					</li>
+					<li>
+						<img src="images/service4.png" alt="service-list" />
+						<h4>optimization</h4>
+						<p>Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero.</p>
+					</li>
+				</ul>
+			</div>
+			<div id="owl-demo">
+				  <div class="item"><img src="images/owl1.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl2.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl3.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl4.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl5.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl6.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl7.jpg" alt="Owl Image"></div>
+				  <div class="item"><img src="images/owl8.jpg" alt="Owl Image"></div>
+			</div>
+			<div class="border"></div>
+			<div id="footer">
+				<div class="posts">
+					<h4>LATES POSTS</h4>
+					<ul>
+						<li>
+							<div class="leftcol">
+								<p class="date">22</p>
+								<p class="month">JUN</p>
+							</div>
+							<p>Vivamus soder pharetra libero atincidunt</p>
+						</li>
+						<li>
+							<div class="leftcol">
+								<p class="date">14</p>
+								<p class="month">MAY</p>
+							</div>
+							<p>Curabitur at ante sed nunc euismod sodales</p>
+						</li>
+						<li>
+							<div class="leftcol">
+								<p class="date">11</p>
+								<p class="month">MAY</p>
+							</div>
+							<p>Nulla euismod augue sed ante vestibulum</p>
+						</li>
+						<li class="last">
+							<div class="leftcol">
+								<p class="date">08</p>
+								<p class="month">APR</p>
+							</div>
+							<p>Sed purus neque, consequat eget mattis</p>
+						</li>
+					</ul>
+				</div>
+				<div class="flickr">
+					<h4>FLICKR</h4>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="twitter">
+					<h4>TWITTER</h4>
+					<ul>
+						<li>
+							<p>Vivamus soder pharetra libero atincidunt Curabitur at ante sed nunc euismod sodales.</p>
+						</li>
+						<li>
+							<p>Vivamus soder pharetra libero atincidunt Curabitur at ante sed nunc euismod sodales.</p>
+						</li>
+						<li>
+							<p class="last-p">Vivamus soder pharetra libero atincidunt Curabitur at ante sed nunc euismod sodales.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="contact">
+					<form>
+                         <input type="text" placeholder="Name">
+                         <input type="text" placeholder="Email">
+                         <textarea placeholder="Describe your project in detail..."></textarea>
+                         <button type="submit">Submit</button>
+           			</form>
+				</div>
+			</div>
+		</div>
+		<div id="copy">
+			<p>&copy; 2011 Zeences Design. All Right Reserved.</p>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function() {
+		 
+		  $("#owl-demo").owlCarousel({
+		 
+		      autoPlay: 3000, //Set AutoPlay to 3 seconds
+		 
+		      items : 4,
+		      itemsDesktop : [1199,3],
+		      itemsDesktopSmall : [979,3]
+		 
+		  });
+		 
+		});
+	</script>
+</body>
+</html>

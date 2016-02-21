@@ -1,0 +1,31 @@
+footer{
+	text-align: center;
+	padding: 40px 0;
+	background: rgba(31, 66, 129, 0.8);
+}
+
+footer a{
+	color: #fff;
+	vertical-align: middle;
+	padding: 10px 12px;
+	background: #82c8bd;
+	border-radius: 100%;
+	margin: 0 12px;
+	-webkit-transition:  all 1.2s ease-in-out;
+	-moz-transition:  all 1.2s ease-in-out;
+	-o-transition:  all 1.2s ease-in-out;
+	-ms-transition:  all 1.2s ease-in-out;
+	transition:  all 1.2s ease-in-out;
+}
+
+footer a:hover{
+	webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+}
+
+footer .f{
+	padding: 0 3px;
+}

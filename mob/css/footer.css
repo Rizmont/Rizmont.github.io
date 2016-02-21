@@ -1,0 +1,44 @@
+footer{
+	background: #344b8e;
+	padding: 20px;
+	color: #fff;
+}
+
+footer ul li a{
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	display: block;
+}
+
+
+@media screen and (min-width: 640px){
+	footer ul{
+		text-align: center;
+	}
+
+	footer ul li{
+		display: inline-block;
+	}
+
+	footer ul li a{
+		margin: 0 7px;
+		font-size: 18px;
+		line-height: 22px;
+		display: block;
+	}
+
+}
+
+@media screen and (min-width: 1025px){
+	footer{
+		padding: 0;
+	}
+
+	footer ul li a{
+		padding: 50px 20px;
+    	font-size: 25px;
+    	line-height: 25px;
+	}
+}

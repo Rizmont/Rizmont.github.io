@@ -1,0 +1,26 @@
+header{
+	background:url("../images/header1.jpg");
+	position: relative;
+}
+
+
+header:after{
+	position: absolute;
+    content: "";
+    top: 100%;
+    margin-top: -38px;
+    left: 0;
+    border-color: #f00 rgba(0, 2, 0, 0) rgba(0, 2, 0, 0) rgba(0, 2, 0, 0);
+    border-style: solid;
+    border-width: 38px 258px 0 0;
+    height: 0;
+    width: 0;
+    transform: rotate(180deg);
+}
+@media screen and (min-width: 640px){
+
+}
+
+@media screen and (min-width: 1241px){
+    
+}

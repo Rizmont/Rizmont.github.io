@@ -1,0 +1,203 @@
+.portfolio{
+	padding: 96px 10px 65px;
+	text-align: center;
+}
+
+.owl-carousel3{
+	margin-bottom: 112px;
+}
+
+.owl-carousel3 .item{
+	background: #f39c12;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	display: table;
+	position: relative;
+}
+
+.owl-carousel3 .item a{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.owl-carousel3 .owl-dots{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+	transform: rotate(90deg);
+}
+
+.owl-carousel3 .owl-nav{
+	display: block;
+	width: 77px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 58px;
+}
+
+
+.owl-carousel3 .owl-prev{
+	position: absolute;
+	left: 0;
+	text-indent: -99999px;
+	background: url("../images/arrowl.png");
+	width: 35px;
+	height: 35px;
+}
+
+.owl-next{
+	position: absolute;
+	right: 0;
+	text-indent: -99999px;
+	background: url("../images/arrowr.png");
+	width: 35px;
+	height: 35px;
+}
+
+.portfolio h5{
+	color: #000;
+	font-size: 22px;
+	line-height: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.portfolio span{
+	color: #919191;
+}
+
+.portfolio .border{
+	margin-top: 134px;
+	margin-bottom: 97px;
+}
+
+.pic{
+	width: 100%;
+	height: 226px;
+	background: #959595;
+	position: relative;
+}
+
+.pic22{
+	background: #eee;
+}
+
+.pic1{
+	display: none;
+}
+
+.pic2{
+	display: none;
+	width: 100%;
+	height: 226px;
+}
+
+	.portfolio .pic{
+		height: 226px;
+		width: 100%;
+	}
+
+	.project-text{
+		background: #fff;
+	}
+
+.project:hover .pic1{
+	display: none;
+	width: 100%;
+}
+
+.project:hover .icon-camera{
+	display: none;
+}
+
+.project:hover .pic2{
+	display: inline-block;
+	cursor: pointer;
+}
+
+.project:hover .project-text h6{
+	color: #f39c12;
+}
+
+.project-text{
+	padding: 12px 0;
+}
+
+.project-text h6{
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.project-text p{
+	color: #ababab;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#tabs ul{
+	margin-bottom: 53px;
+}
+
+#tabs ul li a{
+	color: #000;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 20px 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #f39c12!important;
+	outline: none;
+	border: none;
+}
+
+
+
+
+@media screen and (min-width: 640px){
+	.owl-carousel3 .item{
+		height: 460px;	
+	}
+
+	.job{
+		overflow: hidden;
+	}
+
+	.project{
+		float: left;
+		width: 50%;
+	}
+
+	#tabs ul li{
+		display: inline-block;
+	}
+
+	#tabs ul li a{
+		padding: 20px 8px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+    .owl-carousel3 .item{
+		height: 580px;	
+	}
+
+	#tabs ul li a{
+		padding: 20px 25px;
+	}
+
+	.project{
+		float: left;
+		width: 25%;
+	}
+}

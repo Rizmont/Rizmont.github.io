@@ -1,0 +1,174 @@
+.contact{
+	padding: 96px 10px 78px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.contact h4{
+	margin-bottom: 38px;
+}
+
+form{
+	width: 100%;
+}
+
+input, textarea{
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+	font-size: 15px;
+	padding: 0 55px 0 27px;
+	border: 2px solid #d9d9d9;
+}
+
+input:focus, textarea:focus{
+	border-color: #f39c12;
+	color: #f39c12;
+}
+
+input[type="text"]:focus + .icon-user{
+	color: #f39c12;
+}
+
+
+input[type="email"]:focus + .icon-email{
+	color: #f39c12;
+}
+
+textarea:focus + .icon-headphones{
+	color: #f39c12;
+}
+
+input{
+	height: 42px;
+}
+
+
+textarea{
+	height: 124px;
+	padding: 12px 55px 0 27px;
+	font-size: 16px;
+	resize: none;
+}
+
+.name, .email, .message{
+	position: relative;
+	color: #d9d9d9;
+	font-size: 22px;
+	margin-bottom: 12px;
+}
+
+.contact .icon-user{
+	position: absolute;
+	top: 50%;
+	right: 26px;
+	transform: translate(0, -50%);
+}
+
+.drop .icon-email{
+	position: absolute;
+	top: 50%;
+	right: 26px;
+	transform: translate(0, -50%);
+}
+
+.contact .icon-headphones{
+	position: absolute;
+	top:  10px;
+	right: 26px;
+} 
+
+input[type="submit"]{
+	text-transform: uppercase;
+	height: 38px;
+	border: 2px solid #f39c12;
+	background: #fff;
+	font-weight: bold;
+	width: 132px;
+	line-height: 38px;
+	margin-top: 8px;
+	font-size: 12px;
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+input[type="submit"]:hover{
+	color: #fff;
+	background: #f39c12;
+}
+
+.info h4{
+	margin-bottom: 27px;
+}
+
+.info p{
+	color: #989898;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.info td i{
+	color: #000;
+	border: 2px solid #f39c12;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+	border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info td:first-child{
+	padding-left: 2px;
+}
+
+.info td:last-child{
+	padding-left: 21px;
+}
+
+.info td, .info a{
+	font-weight: bold;
+	color: #000;
+	font-size: 13px;
+	line-height: 26px;
+}
+
+.info tr{
+	margin-bottom: 10px;
+}
+
+.info a:hover{
+	text-decoration: underline;
+}
+
+
+.message ::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+
+.message ::-webkit-scrollbar-track-piece  {
+	background: #D94C22;
+}
+
+.message ::-webkit-scrollbar-thumb:vertical {
+	height: 30px;
+	 background: linear-gradient(to top, #C0AA6B 20%, #f39c12 80%);
+}
+
+
+@media screen and (min-width: 1170px){
+      .drop{
+    	width: 620px;
+    	float: left;
+    }
+	
+	.info{
+		float: right;
+		width: 490px;
+	}
+}

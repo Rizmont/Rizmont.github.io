@@ -1,0 +1,45 @@
+.tweet{
+	background: url("../images/about.jpg");
+	background-size: cover;
+	padding: 214px 10px 220px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.twitter{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 28px;
+	transition: all 2.0s ease;
+}
+
+.twitter:hover{
+	transform: rotate(360deg);
+}
+
+.tw{
+	color: #f39c12;
+}
+
+.twitter .icon-twitter{
+	color: #f39c12;
+	line-height: 100px;
+	font-size: 34px;
+}
+
+.tweet p{
+	font-size: 22px;
+	line-height: 34px;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+
+.tweet span{
+	font-size: 14px;
+	font-weight: 300;
+	color: #959595;
+}

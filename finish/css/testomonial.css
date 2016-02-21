@@ -1,0 +1,42 @@
+.testomonial{
+	background: url("../images/about.jpg");
+	background-size: cover;
+	padding: 176px 10px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.owl-carousel2 .owl-item  img{
+	width: 104px;
+	margin: 0 auto;
+}
+
+.owl-carousel2 h4{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+	color: #fff;
+	margin-bottom: 62px;
+}
+
+.owl-carousel2 h4:after{
+	position: absolute;
+	content: "";
+	top: 250%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 50px;
+	height: 5px;
+	background: #f39c12;
+}
+
+.owl-carousel2 p{
+	font: 300 22px/30px 'Open Sans', sans-serif;
+	margin-bottom: 23px;
+}
+
+.owl-carousel2 .owl-dots{
+	margin-top: 25px;
+}

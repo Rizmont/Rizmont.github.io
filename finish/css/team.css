@@ -1,0 +1,105 @@
+.team{
+	padding: 96px 10px 65px;
+	text-align: center;
+}
+
+
+.team .icon-user{
+	width: 198px;
+	height: 198px;
+	background: #e8f8f4;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #f2f2f2;
+	color: #fff;
+	line-height: 200px;
+	font-size: 52px;
+	margin-bottom: 26px;
+}
+
+.block{
+	padding: 30px 10px;
+	border-top: 4px solid #fff;
+	margin-bottom: 10px;
+}
+
+.block:hover{
+	background: #f0f0f0;
+	border-top: 4px solid #f3a120;
+}
+
+.block h4{
+	margin-bottom: 5px;
+}
+
+.block span{
+	color: #9f9f9f;
+	font-size: 15px;
+	position: relative;
+}
+
+.block span:after{
+	position: absolute;
+	content: "";
+	top: 154%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 20px;
+	height: 4px;
+	background: #999;
+}
+
+.block:hover span:after{
+	background: #f00;
+}
+
+
+.block p{
+	color: #737373;
+	font-size: 16px;
+    line-height: 30px;
+    margin-top: 23px;
+}
+
+.block ul{
+	margin-top: 14px;
+}
+
+.block ul li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 6px;
+}
+
+.block ul li a{
+	color: #999;
+	font-size: 20px;
+}
+
+.block ul li a:hover{
+	color: #f3a120;
+}
+
+@media screen and (min-width: 640px){
+	.team-content{
+		overflow: hidden;
+	}
+
+	.block{
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+		margin-bottom: 0;
+	}
+}
+@media screen and (min-width: 1170px){
+	.block{
+		width: 267px;
+		margin-right: 34px;
+	}
+
+	.block:last-child{
+		margin-right: 0;
+	}
+}

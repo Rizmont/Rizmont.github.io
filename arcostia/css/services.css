@@ -1,0 +1,99 @@
+.services{
+	background-image: url("../images/services.jpg");
+	background-size: cover;
+	padding: 65px 20px 70px;
+	text-align: center;
+}
+
+.services p{
+	color: #ffcccf;
+	font-size: 13px;
+}
+
+.services h6 span{
+	color: #ec9da2;
+}
+
+.box{
+	margin-top: 30px;
+}
+
+.serv{
+	background: #c45158;
+	border-radius: 8px;
+	margin-top: 20px;
+	padding: 30px 15px;
+}
+
+.serv p{
+	color: #fff;
+}
+
+
+
+@media screen and (min-width: 640px){
+	.services{
+		padding: 75px 20px 80px;
+	}
+
+	.box{
+		overflow: hidden;
+	}
+
+	.serv{
+		float: left;
+		width: 48%;
+		margin: 0 1%;
+		margin-top: 20px;
+		padding: 40px 0;
+	}
+
+	.serv-text{
+		padding: 0;
+	}
+
+	.services p{
+		font-size: 14px;
+		line-height: 16px;
+		padding: 0 20px;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1141px){
+	.services{
+		padding: 108px 20px 90px;
+	}
+
+	.box{
+		overflow: hidden;
+	}
+
+	.serv{
+		float: left;
+		width: 223px;
+		margin: 0 16px 0 0;
+		padding: 45px 20px;
+
+	}
+
+	.serv:last-child{
+		margin-right: 0;
+	}
+	
+	.services h4{
+		font-size: 32px;
+		line-height: 75px;
+	}
+
+	.serv-text{
+		padding: 23px 0;
+	}
+
+	.services p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}	

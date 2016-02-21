@@ -1,0 +1,142 @@
+@font-face{
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?39492052');
+      src: url('../font/fontello.eot?39492052#iefix') format('embedded-opentype'),
+           url('../font/fontello.woff?39492052') format('woff'),
+           url('../font/fontello.ttf?39492052') format('truetype'),
+           url('../font/fontello.svg?39492052#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}  
+
+#toTop {
+    width: 80px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+       background: linear-gradient(to top, #D94C22 20%, #CC3E21 80%);
+    padding: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    z-index: 1000;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.fontello{
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+}
+
+.row{
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+h4{
+	color: #0d0d0d;
+	font-size: 20px;
+	line-height: 16px;
+	margin-bottom: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.top-text{
+	max-width: 1120px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 143px;
+}
+
+.top-text h3{
+	color: #0d0d0d;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.top-text p{
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+header:after{
+	position: absolute;
+    content: "";
+    top: 100%;
+    margin-top: -102px;
+    left: 0;
+    background-image: url('../images/lier.png');
+    background-size: cover;
+    height: 103px;
+    width: 100%;
+}
+
+.quote:after, .facts:after, .testomonial:after, .tweet:after, .clients:after, #map:after{
+	position: absolute;
+    content: "";
+    top: 100%;
+    margin-top: -102px;
+    left: 0;
+    background-image: url('../images/lier.png');
+    background-size: cover;
+    height: 103px;
+    width: 100%;
+    z-index: 33;
+}
+.quote:before, .facts:before, .testomonial:before, .tweet:before, .clients:before, #map:before{
+	position: absolute;
+    content: "";
+    bottom: 100%;
+    margin-bottom: -101px;
+    left: 0;
+    background-image: url('../images/lier.png');
+    background-size: cover;
+    height: 103px;
+    transform: rotate(180deg);
+    width: 100%;
+    z-index: 33;
+}
+
+
+
+@media screen and (min-width: 640px){
+	.top-text{
+		text-align: left;
+	}
+
+	.top-text h3{
+		display: table-cell;
+		vertical-align: middle;
+		padding-right: 20px;
+	}
+
+	.top-text p{
+		border-left: 4px solid #f39c12;
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 16px;
+	}
+}
+
+
+@media screen and (min-width: 1190px){
+    .row{
+		max-width: 1170px;
+	}
+}

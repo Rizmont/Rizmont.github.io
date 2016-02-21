@@ -1,0 +1,45 @@
+ #map {
+        height:400px;
+        width:100%;
+        position: relative;
+}
+
+.gm-style-iw * {
+        display: block;
+        width: 100%;
+}
+
+.gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+}
+s
+.gm-style-iw a {
+        color: #4272db;
+}
+
+.gm-svpc{
+    top: 0!important;
+}
+
+.gmnoprint{
+    bottom: 160px!important;
+
+}
+
+.gm-style-cc{
+    display: none!important;
+}
+
+@media screen and (min-width: 640px){
+    #map {
+        height:500px;
+    }
+}
+
+@media screen and (min-width: 1170px){
+    #map {
+        height:600px;
+        width:100%;
+    }
+}

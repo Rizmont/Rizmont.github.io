@@ -1,0 +1,149 @@
+.team{
+	background: #e7f1f8;
+	padding: 40px 20px;
+	text-align: center;
+	color: #3c4761;
+}
+
+.team h2{
+	color: #3c4761;
+}
+
+.team h3{
+	margin: 5px 0;
+}
+
+.team .box .pic-team{
+	margin-bottom: 20px;
+
+}
+
+.team span{
+	color: #30bae7;
+	margin-bottom: 5px;
+}
+
+.team .fo{
+	background: #bdd1df;
+	border-radius: 50%;
+	padding: 8px;
+	color: #fff;
+	margin: 5px;
+	transition: all 2.5s ease;
+}
+
+.team .f{
+	padding: 8px 10px;
+}
+
+.box-team{
+	overflow: hidden;
+}
+
+.pic-team{
+	display: table;
+	margin: 0 auto;
+}
+
+.pic-team a{
+	display: table-cell;
+	margin: 0 auto;
+	transition: all 1.7s ease;
+}
+
+
+.box-pic-team{
+	margin-top: 35px !important;
+}
+
+
+.text-team{
+	display: table;
+	margin: 0 auto;
+}
+
+.text-team p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.text2{
+	padding: 10px 0;
+	display: table;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.text2 a{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+@media screen and (min-width: 640px){
+	.team{
+		padding: 82px 20px 80px;
+	}
+
+	.box-pic-team{
+	    float: left;
+		width: 50%;
+		padding: 10px 0;
+		display: table;
+	}
+
+	.box-team div a{
+		text-align: center;
+		vertical-align: middle;
+	}	
+	
+	.services-team p{
+		margin-bottom: 0;
+	}
+
+	.text-team{
+		padding: 10px;
+	}
+	
+	.texw2{
+		margin-top: 15px;
+	}
+
+}
+
+@media screen and (min-width: 1025px){
+	.team{
+		padding: 112px 20px;
+	}
+
+	.team h2{
+		margin-bottom: 37px;
+	}
+	
+	.box-team{
+		margin-top: 34px;
+	}
+
+	.box-pic-team{
+		width: 25%;
+	}	
+
+	.pic-team{
+		margin-bottom: 32px;
+	}
+
+	.text-team{
+		padding: 10px 20px;
+		margin-top: 8px;
+	}
+	
+	.text-team p{
+		font-size: 17px;
+		line-height: 24px;
+	}
+
+	.text2{
+		padding: 10px;
+		margin-top: 17px;
+	}
+}

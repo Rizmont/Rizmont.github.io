@@ -1,0 +1,45 @@
+.quote{
+	background: url("../images/about.jpg");
+	background-size: cover;
+	padding: 246px 10px 252px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.quote h3{
+	font-weight: 700;
+    font-size: 24px;
+    line-height: 49px;
+    margin-bottom: 50px;
+}
+
+.quote p{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+}
+
+.quote p:before{
+	position: absolute;
+	content: "";
+	bottom: 175%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 50px;
+	height: 5px;
+	background: #f39c12;
+}
+
+@media screen and (min-width: 640px){
+	.quote h3{
+	    font-size: 44px;
+	    line-height: 63px;
+
+	}
+
+	.quote p{
+		font-size: 24px;
+	}
+}

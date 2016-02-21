@@ -1,0 +1,189 @@
+.portfolio{
+	background: #ffdd99;
+	padding: 40px 20px;
+	text-align: center;
+	color: #393939;
+}
+
+.portfolio h2{
+	color: #393939;
+}
+
+.portfolio h3{
+	display: table-cell;
+}
+
+.portfolio ul{
+	display: block;
+	margin-top: 30px;
+}
+
+.portfolio ul li {
+	display: block;
+}
+
+.portfolio ul li a{
+	font-size: 14px;
+	line-height: 18px;
+	color: #393939;
+	display: inline-block;
+	padding: 6px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #f00;
+	background: #fff;
+	outline: none;
+}
+
+
+.portfolio img{
+	width: 280px;
+}
+
+.portfolio .button{
+	color: #fff;
+	display: block;
+	text-align: center;
+	width: 250px;
+	margin: 40px auto 0;
+	text-decoration: none;
+	text-transform: uppercase;	
+	border-radius: 5px;
+	padding: 25px 0;
+	font-size: 18px;
+	background: #17c2a4;
+	border-bottom: 5px solid #80E3D1;
+
+}
+
+
+.box-portfolio{
+	overflow: hidden;
+}
+
+.pic-portfolio{
+	display: inline-block;
+}
+
+.pic-portfolio a{
+	display: block;
+	transition: all 1.7s ease;
+}
+
+.box-pic-portfolio{
+	margin-top: 35px;
+}
+
+
+.text-portfolio{
+	display: table;
+	margin: 0 auto;
+	padding: 5px 0;
+	vertical-align: middle;
+}
+
+.text-portfolio p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 640px){
+	.portfolio{
+		padding: 82px 20px 76px;
+	}
+
+
+	.box-pic-portfolio{
+	    float: left;
+		width: 50%;
+		padding: 10px 0;
+	}
+
+	.box-portfolio div a{
+		text-align: center;
+		vertical-align: middle;
+	}	
+	
+	.services-portfolio p{
+		margin-bottom: 0;
+	}
+
+	.text-portfolio{
+		padding: 10px;
+	}
+	
+	.portfolio ul li{
+		display: inline-block;
+		margin: 0 3px;
+	}
+
+	.portfolio ul li a{
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.portfolio img{
+		width: 280px;
+	}
+}
+
+@media screen and (min-width: 1025px){
+	.portfolio{
+		padding: 112px 20px 106px;
+	}
+
+	.portfolio h2{
+   	 	margin-bottom: 34px;
+	}
+	
+	.portfolio .text-head{
+		width: 575px;
+		margin-bottom: 44px;
+	}
+
+	.box-pic-portfolio{
+		width:50%;
+		padding: 10px 0 0;
+	}	
+
+	.pic-portfolio{
+		margin-bottom: 5px;
+	}
+
+	.text-portfolio{
+		padding: 10px 20px;
+	}
+	
+	.portfolio ul li {
+		display: inline-block;
+	}
+
+	.portfolio ul{
+		margin-bottom: 16px;
+	}
+
+	.portfolio ul li a{
+		font-size: 21px;
+		line-height: 25px;
+	}
+
+	.portfolio .box-pic{
+		width: 50%;
+	}	
+
+	.portfolio img{
+		width: 496px;
+	}
+
+	.portfolio .button{
+		margin-top: 66px;
+		width: 292px;
+		font-size: 18px;
+	}
+
+}

@@ -1,0 +1,184 @@
+.about{
+	background-image: url("../images/about.jpg");
+	background-size: cover;
+	padding: 65px 20px 70px;
+	text-align: center;
+}
+
+.about p{
+	color: #e5d1e3;
+	font-size: 13px;
+	margin-bottom: 45px;
+}
+
+.button{
+	color: #fff;
+	background: #a1ca6c;
+	text-transform: uppercase;
+	position: relative;
+	border-radius: 5px;
+	width: 276px;
+	padding: 11px 35px;
+	font: bold 25px/25px sans-serif;
+}
+
+.button:after{
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 50%;
+	margin-left: -15px;
+	border-color: #a1ca6c rgba(0, 2, 0, 0) rgba(0, 2, 0, 0) rgba(0, 2, 0, 0);
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	height: 0;
+	width: 0;
+}
+
+.box-about{
+	margin-top: 60px;
+}
+
+.abou{
+	background: #534451;
+	border-radius: 8px;
+	margin-top: 20px;
+	padding: 30px 15px;
+
+}
+
+
+.abou .pic1, .pic2{
+	margin-bottom: 10px;
+}
+
+.pic2{
+	display: none;
+}
+
+.abou:hover{
+	background: #000;
+}
+
+.abou:hover .pic1{
+	display: none;
+}
+
+.abou:hover .pic2{
+	display: inline;
+}
+
+.abou:hover h4{
+	color: rgba(255, 13, 95, 1);
+}
+
+.abou:hover span{
+	color: rgba(84, 156, 252, 0.9);
+}
+
+.abou:hover .facebook{
+	background: rgba(215, 239, 44, 0.9);
+}
+
+.abou:hover .twitter{
+	background: rgba(117, 85, 233, 0.7);
+}
+
+.abou:hover .google{
+	background: rgba(101, 255, 44, 0.6);
+}
+
+.abou:hover .link{
+	background: rgba(230, 255, 231, 0.7);
+}
+
+.abou h4{
+	text-transform: uppercase;
+}
+
+.abou span{
+	color: #98b96a;
+}
+
+.abou ul{
+	margin-top: 37px;
+}
+
+.abou ul li{
+	display: inline-block;
+	background: #a1859e;
+	border-radius: 100%;
+	margin: 0 7px;
+	padding: 6px 7px;
+}
+
+.abou ul li a{
+	color: #fff;
+}
+
+
+.f{
+	padding: 3px;
+}
+
+
+
+@media screen and (min-width: 640px){
+	.about{
+		padding: 75px 20px 80px;
+	}
+
+	.box-about{
+		overflow: hidden;
+	}
+	
+	.abou{
+		float: left;
+		width: 48%;
+		margin: 0 1%;
+		margin-top: 20px;
+		padding: 40px 0;
+	}
+
+	.about p{
+		font-size: 14px;
+		line-height: 16px;
+		padding: 0 20px;
+	}
+
+}	
+
+
+
+
+@media screen and (min-width: 1141px){
+	.about{
+		padding: 108px 20px 90px;
+	}
+
+	
+	.abou{
+		float: left;
+		width: 260px;
+		margin: 0 20px 0 0;
+		padding: 45px 0;
+
+	}
+
+	.abou:last-child{
+		margin-right: 0;
+	}
+	
+	.about h4{
+		margin-top: 20px;
+		margin-bottom: 9px;
+		font: 400 22px/25px 'Lato', sans-serif;
+	}
+
+
+	.about p{
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 68px;
+	}
+}	

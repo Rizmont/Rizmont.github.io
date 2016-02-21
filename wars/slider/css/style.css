@@ -1,0 +1,55 @@
+body {
+	background: #f2f2f2;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
+	margin: 50px 0;
+}
+
+.slider{
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.bxslider li img{
+	max-width: 100%;
+	display: block;
+}
+
+.bx-prev{
+	display: block;
+	width: 30px;
+	height: 34px;
+	background: #fff url("../images/bx-prev.png") no-repeat 7px 5px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -17px;
+	text-indent: -9999px;
+	border-radius: 0 3px 3px 0;
+	z-index: 100;
+}
+
+.bx-next{
+	display: block;
+	width: 30px;
+	height: 34px;
+	background: #fff url("../images/bx-next.png") no-repeat 7px 5px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -17px;
+	text-indent: -9999px;
+	border-radius: 3px 0 0 3px;
+	z-index: 100;
+}

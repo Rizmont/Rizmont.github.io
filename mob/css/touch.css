@@ -1,0 +1,166 @@
+.touch{
+	background: #3c5499;
+	padding: 40px 20px;
+	text-align: center;
+	color: #fff;
+}
+
+form {
+	margin-top: 30px;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #273a71;
+  font: 300 16px/40px 'Lato', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 29px;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  color: #A9A9A9;
+  transition: all 0.2s linear;
+}
+
+input:focus, textarea:focus{
+	background: #fff;
+    color: #4c4f54;
+    -webkit-box-shadow: 0 5px #e8e8e8 inset;
+    box-shadow: 0 5px #e8e8e8 inset;
+    outline: 0;
+}
+
+textarea{
+  width: 100%;
+  height: 200px;
+  font: 300 16px/19px 'Lato', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  background: #273a71;
+  resize: none;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: #A9A9A9;
+  transition: all 0.2s linear;
+}
+
+ input[type="submit"]{
+	color: #fff;
+	width: 250px;
+	margin: 40px auto 0;
+	font-size: 18px;
+	background: #17c2a4;
+	border-bottom: 5px solid #80E3D1;
+	height: 70px;
+	line-height: 70px;
+}
+
+
+.search{
+	position: relative;
+}
+
+
+input[type="search"]{
+	width: 100%;
+	height: 40px;
+	padding-right: 15%;
+}
+
+.search input[type="submit"]{
+	position: absolute;
+	top: -20px;
+	right: 0;
+	height: 40px;
+	width: 15% !important;
+	text-indent: -9999px;
+	background: url("../images/i.png") no-repeat 50% 0px / 60% 100% #D5ECF9;
+	transform: translate(0, -50%);
+	width: auto;
+	border: none;
+}
+
+.search input[type="submit"]:focus{
+	box-shadow: none;
+}
+
+
+@media screen and (min-width: 640px){
+	.touch{
+		padding: 82px 20px 76px;
+	}
+
+
+	input{
+		font: 300 19px/40px 'Lato', sans-serif;
+	}
+
+	.search input[type="submit"]{
+		background: url("../images/i.png") no-repeat 50% 0px / 60% 100% #D5ECF9;
+	}
+
+	textarea{
+		font: 300 19px/22px 'Lato', sans-serif;
+	}
+}
+
+@media screen and (min-width: 1025px){
+	.touch{
+		padding: 112px 20px 116px;
+	}
+
+	.touch h2{
+		margin-bottom: 33px;
+	}
+
+	.touch address{
+		width: 860px;
+		margin: 0 auto;
+	}
+
+	form{
+		overflow: hidden;
+		width: 860px;
+		margin: 75px auto 0;
+	}
+
+	input{
+		width: 415px;
+		font: 300 21px/40px 'Lato', sans-serif;
+	}
+
+	input[type="text"]{
+		float: left;
+		height: 55px;
+	}
+
+	input[type="email"]{
+		margin-left: 30px;
+		height: 55px;
+	}
+
+	input[type="search"]{
+		height: 55px;
+	}
+
+	.search input[type="submit"]{
+	    top: -26px;
+    	height: 55px;
+	}
+
+	textarea{
+		font: 300 21px/22px 'Lato', sans-serif;
+	}
+
+	input[type="submit"]{
+		margin-top: 54px;
+		width: 292px;
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,211 @@
+.work{
+	background-image: url("../images/work.jpg");
+	background-size: cover;
+	padding: 65px 20px 70px;
+	text-align: center;
+}
+
+
+.work p{
+	color: #fff;
+	font-size: 13px;
+	line-height: 23px;
+	margin-bottom: 45px;
+}
+
+.wor p{
+	color: #727272;
+}
+
+.wor{
+	margin-top: 19px;
+}
+
+.wor .pic{
+	width: 260px;
+	margin: 0 auto;
+	margin-bottom: -2px;
+	position: relative;
+}
+
+.block-plus{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.block-plus img{
+	width: 50px!important;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-top: -25px;
+	margin-left: -25px;
+}
+
+.wor .pic:hover .block-plus{
+	display: block;
+}
+
+.work-text{
+	text-transform: uppercase;
+	background: #eee;
+	position: relative;
+	padding: 18px 0;
+ 	width: 260px;
+	margin: 0 auto;
+}
+
+.work-text p{
+	font-size: 14px;
+	margin: 0;
+}
+
+.work-text:before{
+	position: absolute;
+	content: "";
+	bottom: 100%;
+	left: 50%;
+	margin-left: -19px;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 20px solid #eee;
+}
+
+
+#tabs{
+	padding-top: 30px;
+}
+	
+#tabs ul li a{
+		color: #fff;
+		display: block;
+		border-radius: 5px;
+		padding: 10px 10px;
+		display:inline-block;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	background: #f5c149;
+	outline: none;
+}
+
+@media screen and (min-width: 640px){
+	.work{
+		padding: 75px 20px 80px;
+	}
+
+	.work p{
+		font-size: 14px;
+		padding: 0 20px;
+		margin-bottom: 65px;
+	}
+	
+	.box-work{
+		overflow: hidden;
+		margin-top: 62px;
+	}
+	
+	.wor{
+		float: left;
+		width: 50%;
+	}
+
+	.wor p{
+		margin-bottom: 0;
+	}
+
+	.menu{
+		position: relative;
+	}
+
+	.menu:after{
+		position: absolute;
+		top: 40px;
+		left:0;
+		content: "";
+		border-top: 1px solid #fff;
+		width: 100%;
+		height: 1px;
+	}
+
+	.menu:before{
+		position: absolute;
+		bottom: 18px;
+		left:0;
+		content: "";
+		border-top: 1px solid #fff;
+		width: 100%;
+		height: 1px;
+	}
+
+	#tabs{
+		overflow: hidden;
+	}
+
+	#tabs h3{
+		float: left;
+	}
+
+	#tabs ul{
+		float: right;
+		margin-top: -7px;
+	}
+
+	#tabs ul li{
+		display: inline-block;
+		
+	}
+	
+	#tabs ul li a{
+		color: #fff;
+		display: block;
+		border-radius: 5px;
+		padding: 10px 10px;
+		margin-left: 20px;
+	}
+}	
+
+
+
+
+@media screen and (min-width: 1141px){
+	.work{
+		padding: 108px 20px 90px;
+	}
+
+	.work>p{
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 68px;
+	}
+	
+	.wor{
+		float: left;
+		width: 260px;
+		margin: 19px 20px 0 0;
+	}
+
+	.wor:nth-child(4), .wor:last-child{
+		margin-right: 0;
+	}
+
+	.pic{
+		height: 200px;
+	}
+
+	.wor img{
+		width: 100%;
+	}
+
+	#tabs ul li a{
+		margin-left: 36px;
+	}
+
+}	

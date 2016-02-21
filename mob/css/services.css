@@ -1,0 +1,108 @@
+.services{
+	background: #17c2a4;
+	padding: 40px 20px;
+	text-align: center;
+}
+
+.services h3{
+	color: #fff;
+}
+
+.services p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.box-services{
+	overflow: hidden;
+}
+
+.pic-services{
+	display: table;
+	margin: 0 auto;
+}
+
+.pic-services a{
+	display: table-cell;
+	margin: 0 auto;
+	vertical-align: middle;
+	transition: all 1.7s ease;
+}
+
+
+.box-pic-services{
+	margin-top: 35px;
+}
+
+
+.readmore{
+	display: table;
+	margin: 0 auto;
+}
+
+.readmore a{
+	   color: rgb(0, 5, 255);
+}
+
+.readmore p{
+	display: table;
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 640px){
+	.services{
+		padding: 85px 20px;
+	}
+
+	.box-pic-services{
+	    float: left;
+		width: 50%;
+		padding: 10px 0;
+		display: table;
+	}
+
+	.box-services div a{
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 10px;
+	}	
+	
+	.services-services p{
+		margin-bottom: 0;
+	}
+
+	.readmore{
+		padding: 10px;
+	}
+	
+}
+
+@media screen and (min-width: 1025px){
+	.services{
+		padding: 112px 40px 106px;
+	}
+
+	.services .text-head{
+		padding-bottom: 32px;
+	}
+
+	.services h3{
+		line-height: 40px;
+	}
+
+	.box-pic-services{
+		width: 25%;
+	}	
+	
+	.box-services div a {
+	    margin-top: 20px;
+	}
+
+	.pic-services{
+		margin-bottom: 40px;
+	}
+
+	.readmore{
+		padding: 10px 20px;
+	}
+}
