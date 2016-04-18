@@ -10,9 +10,7 @@ ul{
     transform: translate(0, -50%);
 }
 
-ul li{
-	display: inline-block;
-}
+
 
 a{
 	text-decoration: none;
