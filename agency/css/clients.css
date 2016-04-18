@@ -1,0 +1,109 @@
+.clients{
+	background: #f8f8f8;
+	overflow: hidden;
+	text-align: center;
+}
+
+h5{
+	text-transform: uppercase;
+	font: 700 24px/48px 'Dosis', sans-serif;
+	color: #000;
+}
+
+.view{
+	padding-bottom: 15px;
+}
+
+.clients a{
+	color: #f2824d;
+	font-size: 13px;
+}
+
+.sprite-arrow{
+	display: none;
+}
+
+
+.clients ul{
+	background: #fff;
+}
+
+.clients ul li i{
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 640px){
+	
+	.clients ul li{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px;
+	}
+}
+
+@media screen and (min-width: 1171px){
+	.clients{
+		text-align: left;
+	}
+
+	.table{
+		display: table-row;
+	}
+
+	.view{
+		display: table-cell;
+		padding-right: 109px;
+	}
+
+	.view a{
+		float: left;
+		position: relative;
+	}
+
+	.view a i{
+		position: absolute;
+	    top: 4px;
+	    left: 8px;
+	}
+
+	.clients nav{
+		background: #fff;
+		display: table-cell;
+		position: relative;
+	}
+
+	.sprite-arrow{
+		display: block;
+	}
+
+	.clients nav:before{
+		position: absolute;
+		content: "";
+		border-bottom: 120px solid #fff;
+		border-left: 70px solid transparent;
+		height: 0;
+		width: 0;
+		right: 100%;
+	}
+
+	.clients nav:after{
+		position: absolute;
+		content: "";
+		border-bottom: 120px solid #fff;
+		height: 0;
+		width: 100%;
+		left: 100%;
+    	top: 0;
+	}
+
+	.clients ul li{
+		display: inline-block;
+		vertical-align: middle;
+		padding-left: 7px;
+    	margin: 0 0 0 18px;
+
+	}
+	.clients ul li:last-child{
+		margin: 0;
+	}
+}

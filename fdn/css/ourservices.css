@@ -1,0 +1,171 @@
+.ourservices ul li{
+	overflow: hidden;
+	padding: 23px 30px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+.ourservices h4{
+	color: #363636;
+	font-size: 29px;
+	line-height: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 37px;
+	position: relative;
+}
+
+.ourservices h4:after{
+	position: absolute;
+	content: "";
+	width: 40px;
+	height: 5px;
+	background: #363636;
+	left: 0;
+	top: 125%;
+}
+
+.ourservices h5{
+	color: #363636;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 37px;
+	position: relative;
+}
+
+.ourservices h5:after{
+	position: absolute;
+	content: "";
+	width: 40px;
+	height: 5px;
+	background: #363636;
+	left: 0;
+	top: 125%;
+}
+
+.ourservices p{
+	color: #a0a0a0;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 8px;
+}
+
+.ourservices .owl-carousel2 .item{
+	display: table;
+	margin: 0 auto;
+}
+
+.ourservices .owl-carousel2 .item a{
+	display: table-cell;
+	vertical-align: middle;
+	color: #363636;
+	font-size: 20px;
+}
+
+.ourservices .owl-carousel2 .owl-next{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	background: url('../images/right.png');
+	text-indent: -999999px;
+	width: 22px;
+	height: 28px;
+	margin-left: -11px;
+}
+
+.ourservices .owl-carousel2 .owl-next:hover{
+	background: url('../images/right-hover.png');
+	transform: rotate(180deg);
+}
+
+.ourservices .owl-carousel2 .owl-prev{
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	background: url('../images/right.png');
+	text-indent: -999999px;
+	width: 22px;
+	height: 28px;
+	transform: rotate(180deg);
+	margin-left: -11px;
+}
+
+.ourservices .owl-carousel2 .owl-prev:hover{
+	background: url('../images/right-hover.png');
+	transform: rotate(360deg);
+}
+
+.number{
+	font-size: 40px;
+	color: #000;
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media screen and (min-width: 640px){
+	.ourservices ul li{
+		width: 50%;
+		float: left;
+	}
+
+}
+ 
+@media screen and (min-width: 1241px){
+	.ourservices ul li{
+		width: 25%;
+	}
+	.ourservices ul li .text{
+		display: block;
+	}
+
+	
+.triangle-left {
+	position: relative;
+}
+
+.triangle-left:before {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 0;
+	content: "";
+	border-top: 10px solid transparent;
+	border-right: 20px solid #fff;
+	border-bottom: 10px solid transparent;
+}
+
+.triangle-right{
+	position: relative;
+}
+
+.triangle-right:before {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	left: 0;
+	content: "";
+	border-top: 10px solid transparent;
+	border-right: 20px solid #fff;
+	border-bottom: 10px solid transparent;
+	transform: rotate(180deg);
+}
+
+.triangle-center{
+	position: relative;
+}
+
+.triangle-center:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -10px;
+	content: "";
+	border-top: 10px solid transparent;
+	border-right: 20px solid #fff;
+	border-bottom: 10px solid transparent;
+	transform: rotate(90deg);
+}
+
+
+}

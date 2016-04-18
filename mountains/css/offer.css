@@ -1,0 +1,137 @@
+.offer{
+	background: url("../images/offer.png");
+	background-size: cover;
+	padding: 80px 20px 40px;
+}
+
+.data{
+	color: rgba(21, 97, 144, 0.9);
+	padding-left: 32px;
+	position: relative;
+}
+
+.data:before{
+	background: url('../images/locked.png');
+	content: "";
+	width: 14px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.offer input{
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 5px 15px;
+	color: #000;
+	transition: all 0.2s linear;
+	border-radius: 5px;
+}
+
+.offer input:focus{
+	background: rgba(21, 97, 144, 0.9);
+    color: #fff;
+    -webkit-box-shadow: 0 5px #e8e8e8 inset;
+    box-shadow: 0 5px #e8e8e8 inset;
+    outline: 0;
+}
+
+.offer input[type="submit"]{
+	background: rgba(21, 97, 144, 0.9);
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+	text-transform: capitalize;
+	transition: all 0.2s linear;
+}
+
+.offer input[type="submit"]:hover{
+	background: #fff;
+	color: rgba(21, 97, 144, 0.9);
+}
+
+
+@media screen and (min-width: 640px){
+	.offer{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	
+	.offer form{
+		overflow: hidden;
+	}
+
+	.offer input[type="text"]{
+		width: 45%;
+		margin-right: 10%;
+		float: left;
+	}
+
+	.offer input[type="text"]:nth-child(2){
+		margin-right: 0;
+	}
+
+	.offer input[type="submit"]{
+		width: 260px;
+		margin: 0 auto;
+		display: block;
+	}
+
+}
+
+@media screen and (min-width: 1141px){
+	.offer{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.offer p{
+		width: 60%;
+	}
+
+	.offer form{
+		width: 100%;
+		background: #fff;
+		height: 60px;
+		position: relative;
+		border-radius: 5px;
+		margin-bottom: 25px;
+	}
+
+	.offer input[type="text"]:first-child{
+		position: absolute;
+		border-right: 2px solid #000;
+		top: 0;
+		left: 0;
+		width: 33.3333%;
+		border-radius: 0;
+	}
+
+	
+	.offer input[type="text"]:nth-child(2){
+		position: absolute;
+		top: 0;
+		left: 33.3333%;
+		width: 33.3333%;
+		border-radius: 0;
+	}
+
+	.offer input[type="text"]:nth-child(2):focus{
+		border-right: 2px solid #000;
+	}
+
+	.offer input[type="submit"]{
+		position: absolute;
+		top: 0;
+		left: 66.6666%;
+		width: 33.3333%;
+		border-radius: 0;
+	}
+
+}

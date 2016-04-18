@@ -1,0 +1,143 @@
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow {
+    width: 4px;
+    height: 7px;
+    background-position: -5px -5px;
+}
+
+.sprite-client2 {
+    width: 133px;
+    height: 72px;
+    background-position: -19px -5px;
+}
+
+.sprite-client3 {
+    width: 162px;
+    height: 90px;
+    background-position: -162px -5px;
+}
+
+.sprite-client4 {
+    width: 123px;
+    height: 66px;
+    background-position: -5px -105px;
+}
+
+.sprite-client5 {
+    width: 71px;
+    height: 71px;
+    background-position: -138px -105px;
+}
+
+.sprite-client6 {
+    width: 91px;
+    height: 49px;
+    background-position: -219px -105px;
+}
+
+.sprite-client7 {
+    width: 135px;
+    height: 72px;
+    background-position: -5px -186px;
+}
+
+.sprite-footer {
+    width: 32px;
+    height: 20px;
+    background-position: -219px -164px;
+}
+
+.sprite-logo {
+    width: 46px;
+    height: 46px;
+    background-position: -261px -164px;
+}
+
+.sprite-scroll {
+    width: 78px;
+    height: 78px;
+    background-position: -150px -220px;
+}
+
+.sprite-services1 {
+    width: 64px;
+    height: 60px;
+    background-position: -238px -220px;
+}
+
+.sprite-services2 {
+    width: 48px;
+    height: 64px;
+    background-position: -334px -5px;
+}
+
+.sprite-services3 {
+    width: 64px;
+    height: 64px;
+    background-position: -334px -79px;
+}
+
+.sprite-services4 {
+    width: 64px;
+    height: 64px;
+    background-position: -320px -153px;
+}
+
+.sprite-tab1 {
+    width: 42px;
+    height: 34px;
+    background-position: -312px -227px;
+}
+
+.sprite-tab2 {
+    width: 40px;
+    height: 40px;
+    background-position: -5px -271px;
+}
+
+.sprite-tab3 {
+    width: 48px;
+    height: 36px;
+    background-position: -55px -271px;
+}
+
+.sprite-tab4 {
+    width: 48px;
+    height: 48px;
+    background-position: -312px -271px;
+}
+
+.sprite-tab5 {
+    width: 48px;
+    height: 48px;
+    background-position: -5px -329px;
+}
+
+.sprite-tab6 {
+    width: 45px;
+    height: 40px;
+    background-position: -63px -329px;
+}
+
+.sprite-tab7 {
+    width: 42px;
+    height: 42px;
+    background-position: -118px -329px;
+}
+
+.sprite-tab8 {
+    width: 47px;
+    height: 36px;
+    background-position: -170px -329px;
+}
+
+.sprite-tab9 {
+    width: 48px;
+    height: 48px;
+    background-position: -227px -329px;
+}

@@ -1,0 +1,100 @@
+.focus{
+	padding: 50px 20px;
+}
+
+.focus table{
+	width: 100%;
+	color: #3d3d3d;
+	display: none;
+}
+
+.focus td{
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.pict{
+	display: table;
+	margin: 0 auto;
+}
+
+.coltext{
+	text-align: left;
+}
+
+.focus h6{
+	margin-top: 14px;
+	color: #3d3d3d;
+	font-weight: bold;
+}
+
+.first-col{
+	border: none!important;
+}
+
+.focus td:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+.focus td:hover h6{
+	color: #fff;
+}
+
+.coltext-mobile{
+	text-align: center;
+}
+
+.coltext-mobile ul{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.coltext-mobile ul li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px 5px;
+}
+
+
+@media screen and (min-width: 640px){
+	  .coltext-mobile{
+	  	display: none;
+	  }
+
+	  .focus table{
+   		display: block;
+   }
+
+	  .focus td{
+   		width: 24%;
+   		padding: 15px 0;
+   }
+}
+
+@media screen and (min-width: 1171px){
+   .focus{
+		padding: 50px 0px;
+	}
+
+	.focus table{
+		border-collapse: separate;
+	}
+
+   .focus td{
+   		width: 21%;
+   }
+
+    .focus h3{
+   		margin-bottom: 30px;
+   	}
+
+   	.focus h3:after{
+		background: #f16522;
+	}
+}

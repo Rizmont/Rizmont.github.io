@@ -1,0 +1,47 @@
+#sidebar {
+  background: #151718;
+  width: 200px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: -200px;
+  top: 0;
+  transition: right 0.3s linear;
+}
+
+#sidebar.visible {
+  right: 0;
+  z-index: 2;
+  transition: right 0.3s linear;
+}
+
+#sidebar-btn {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  top: 54px;
+  left: -70px;
+}
+
+#sidebar-btn .icon-menu {
+  font-size: 28px;
+  color: #ffe400;
+}
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+#sidebar ul li a {
+  background: #1c1e1f;
+  color: #ccc;
+  border-bottom: 1px solid #111;
+  display: block;
+  width: 180px;
+  padding: 10px;
+  text-decoration: none;
+}

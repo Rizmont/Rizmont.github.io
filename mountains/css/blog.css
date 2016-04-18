@@ -1,0 +1,96 @@
+.blog{
+	background: url("../images/section.png");
+	background-size: cover;
+	padding: 50px 0 20px;
+	text-align: center;
+}
+
+
+.blog p{
+	padding: 0 40px;
+}
+
+.button2{
+	display: block;
+	width: 128px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	background: rgba(21, 97, 144, 0.9);
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-transform: capitalize;
+	transition: all 0.2s linear;
+}
+
+.button2:hover{
+	background: #fff;
+	color: rgba(21, 97, 144, 0.9);
+}
+
+.right{
+	overflow: hidden;
+}
+
+.blog img{
+	width: 90%;
+	margin-top: 15px;
+}
+
+@media screen and (min-width: 640px){
+	.blog{
+		padding-top: 125px;
+		padding-bottom: 25px;
+	}
+
+	.blog img{
+		width: 40%;
+		margin: 0 5%;
+		float: left;
+		margin-top: 15px;
+	}
+
+	.button2{
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1141px){
+	.blog{
+		padding-top: 250px;
+		padding-bottom: 235px;
+		text-align: left;
+	}
+
+	.left{
+		width: 350px;
+		text-align: justify;
+	}
+
+	.left p{
+		padding: 0;
+	}
+
+	.blog img{
+		width: auto;
+		margin: 0 ;
+		float: none;
+	}
+
+	.big-photo{
+		width: 706px !important;
+	    height: 570px;
+	    position: absolute;
+	    top: -275px;
+	    right: 0;
+	}
+
+	.small-photo{
+		width: 350px !important;
+	    height: 350px !important;
+	    position: absolute;
+	    bottom: -200px;
+    	right: 415px;
+	}
+}

@@ -1,0 +1,99 @@
+.journal{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.journal h3:before{
+	bottom: 150%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.box div{
+	height: 380px;
+	position: relative;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.box div img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box div span{
+	color: #147147;
+	font-size: 22px;
+}
+
+.box div h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+    font-size: 20px;
+}
+
+.box div p{
+	text-align: justify;
+}
+
+
+
+
+@media screen and (min-width: 640px){
+	.box{
+  		overflow: hidden;
+  	}
+	
+	.box div{
+		float: left;
+		width: 50%;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (min-width: 1141px){
+  	.box div{
+		width: 33.3333%;
+		margin-bottom: 0;
+	}
+
+	.box div:first-child:before{
+		position: absolute;
+	    top: 10%;
+	    margin-top: -10px;
+	    right: 0;
+	    content: "";
+	    border-top: 10px solid transparent;
+	    border-right: 20px solid #fff;
+	    border-bottom: 10px solid transparent;
+	}
+
+	.box div:nth-child(3):before{
+		position: absolute;
+	    top: 98%;
+	    transform: rotate(90deg);
+	    margin-top: -10px;
+	    left: 9%;
+	    content: "";
+	    border-top: 10px solid transparent;
+	    border-right: 20px solid #fff;
+	    border-bottom: 10px solid transparent;
+	}
+
+	.box div:nth-child(5):before{
+		position: absolute;
+	    top: 10%;
+	    transform: rotate(180deg);
+	    margin-top: -10px;
+	    left: 0;
+	    content: "";
+	    border-top: 10px solid transparent;
+	    border-right: 20px solid #fff;
+	    border-bottom: 10px solid transparent;
+	}
+
+}

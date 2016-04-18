@@ -1,0 +1,223 @@
+header{
+	background: url('../images/header.png');
+	background-size: cover;
+	padding: 30px 20px 40px;
+}
+
+.logo{
+	margin-left: 15px;
+	font-size: 28px;
+	display: inline-block;
+	color: #4cb4eb;
+}
+
+
+.menu-icon{
+	color: #444546;
+	font-size: 35px;
+	position: absolute;
+	right: 15px;
+    top: 0;
+	cursor: pointer;
+}
+
+
+.menu-desc{
+	display: none;
+}
+
+.call-us{
+	display: block;
+	color: #4cb4eb;
+	width: 150px;
+	height: 48px;
+	font-size: 20px;
+	line-height: 48px;
+	text-align: center;
+	border: 2px solid #4cb4eb;
+	border-radius: 5px;
+	margin: 30px auto;
+	transition: all 0.2s linear;
+}
+
+/*mobile-menu*/
+.mobile-menu.active{
+	display: block;
+}
+
+.mobile-menu{
+	position: absolute;
+	z-index: 9999;
+	background: #000;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	display: none;
+}
+
+.menu-exit{
+	color: #fff;
+	font-size: 35px;
+	position: absolute;
+	right: 40px;
+	top: 30px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+
+.mobile-menu ul{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+
+.mobile-menu ul li a{
+	color: #fff;
+	font-size: 17px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.mobile-menu ul li a:hover{
+	color: #4cb4eb;
+}
+
+.header-box{
+	border: 1px solid #fff;
+	padding: 30px;
+}
+
+header h2{
+	color: #fff;
+	font-size: 31px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+header h2 span{
+	color: #56c7ff;
+}
+
+.header-box p{
+	color: #ddd;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.header-box a{
+	display: inline-block;
+	padding: 15px;
+	background: #36aeea;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	transition: all 0.2s linear;
+}
+
+.header-box a:hover{
+	color: #36aeea;
+    background: #fff;
+}
+
+.call-us:hover{
+	background: #fff;
+}
+
+@media screen and (min-width: 640px){
+	.call-us{
+		margin-top: -35px;
+	}
+
+	.header-top{
+		margin-bottom: 60px;
+	}
+
+	header h2{
+		font-size: 46px;
+		margin-bottom: 30px;
+	}
+
+	.header-box p{
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media screen and (min-width: 1141px){
+    .row{
+    	max-width: 1140px;
+    }
+	
+	header{
+		padding: 30px 0 60px;
+	}
+
+	.menu-icon{
+		display: none;
+	}
+
+	.menu-desc{
+		display: block;
+		margin-top: 10px;
+		float: left;
+	}
+
+	.call-us{
+		float: right;
+		margin: 0;
+	}
+
+	.header-top{
+		overflow: hidden;
+	}
+
+    .logo{
+		margin-right: 65px;
+		float: left;
+	}
+
+	.header-top ul{
+		float: left;
+	}
+
+	.header-top ul li{
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	.header-top ul li a{
+		padding-bottom: 3px;
+		color: #000;
+		text-transform: uppercase;
+	}
+
+	.header-top ul li a:hover{
+		border-bottom: 3px solid #4cb4eb;
+	}
+
+	header h2 span{
+		display: block;
+		line-height: 0.7;
+	}
+
+	.header-box p{
+		width: 40%;
+	}
+
+	.header-box a{
+		margin: 0;
+	}
+}
+
+
+

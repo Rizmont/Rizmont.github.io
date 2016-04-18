@@ -1,0 +1,123 @@
+.travel{
+	background: url("../images/travel-bg.png");
+	background-size: cover;
+	padding: 80px 20px 300px;
+	text-align: center;
+}
+
+.travel h3{
+	margin-bottom: 40px;
+}
+
+.travel h3:before{
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+
+.country{
+	width: 200px;
+	height: 382px;
+	display: table;
+	position: relative;
+	vertical-align: top;
+	text-align: left;
+	color: #fff;
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+
+.country h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.country p{
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.country a{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 10px;
+	color: #fff;
+}
+
+.country:before{
+	content: "";
+	position: absolute;
+	width: 96px;
+	height: 16px;
+	top: 13px;
+	left: 11px;
+	background: url("../images/stars.png");
+}
+
+.country:nth-child(2):before{
+	width: 58px;
+}
+
+.country:nth-child(4):before{
+	width: 77px;
+}
+
+.country:nth-child(3):before{
+	width: 19px;
+}
+
+.country del{
+	position: absolute;
+	bottom: 20px;
+	left: 15px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.country span{
+	position: absolute;
+	bottom: 17px;
+	right: 15px;
+	font-weight: bold;
+	font-size: 26px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
+.country span:hover{
+	    -webkit-transform: scale(1.5);
+	    color: #f00;
+}
+
+@media screen and (min-width: 640px){
+	.tour{
+		overflow: hidden;
+	}
+
+	.country{
+		float: left;
+		width: 45%;
+		margin-right: 10%;
+	}
+
+	.country:nth-child(even){
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 1141px){
+    .country{
+		float: left;
+		width: 200px;
+		margin-right: 28px !important;
+	}
+	
+
+
+	.country:last-child{
+		margin-right: 0;
+	}
+}

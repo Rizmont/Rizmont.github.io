@@ -1,0 +1,117 @@
+.work{
+	background: #28282e;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.work p{
+		font-size: 16px;
+		line-height: 28px;
+		color: #878796;
+	}
+
+.work h3{
+	color: #fff;
+	font-size: 39px;
+    letter-spacing: 4.4px;
+}
+
+.head-text{
+	max-width: 610px;
+	margin: 0 auto;
+}
+
+.box-work{
+	margin-top: 30px;
+}
+
+.box-work p{
+	border-bottom: 2px dashed #ddd;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+.work h4{
+	color: #fff;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+table{
+	text-align: left;;
+	color: #878796;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+table a{
+	color: #a14d27;
+}
+
+.second{
+	padding-left: 5px;
+}
+
+.box-work h4{
+		font-size: 25px;
+	}
+
+@media screen and (min-width: 640px){
+	.box-work{
+		width: 572px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	.box-work h4{
+		font-size: 32px;
+		letter-spacing: 1px;
+		margin-bottom: 22px;
+	}
+}
+
+@media screen and (min-width: 1171px){
+	.work{
+		background-image: url("../images/services.jpg");
+		background-size: cover;
+		height: auto;
+		padding-top: 104px;
+		overflow: hidden;
+	}
+	
+	.work h3{
+		margin-bottom: 48px;
+	}
+
+    .work h3:after{
+		background: #f16522;
+		left: 50%;
+		margin-left: -20px;
+		top: 144%;
+		width: 36px;
+    	height: 13%;
+	}
+
+	.box-work{
+		float: right;
+		text-align: left;
+		margin-top: 140px;
+	}
+
+	.box-work p{
+		padding-bottom: 33px;
+		margin-bottom: 29px;
+	}
+
+	table{
+		margin: 0;
+	}
+
+	td{
+		padding-bottom: 26px;
+	}
+
+	.second{
+		padding-left: 41px;
+	}
+}

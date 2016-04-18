@@ -1,0 +1,72 @@
+.price{
+	background: #f5f5f5;
+}
+
+.price h6{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 42px;
+}
+
+
+
+.pdf{
+	background: #ffe400;
+	display: table;
+	width: 100%;
+}
+
+.pdf h6{
+	color: #94871d;
+}
+
+.contactus{
+	background: #2297d8;
+	display: table;
+	width: 100%;
+}
+
+.contactus h6{
+	color: #fff;
+}
+
+.information a{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+@media screen and (min-width: 640px){
+	.information{
+		overflow: hidden;
+		width: 100%;
+	}
+	
+	.pdf{
+		width: 50%;
+		float: left;
+	}
+
+	.contactus{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1172px){
+	.price{
+	     background: linear-gradient(to right, #f5f5f5 50%, #282828 50%);
+     }
+
+	.information{
+		width: 50%;
+	}
+	
+	.pdf{
+		width: 50%;
+	}
+
+	.contactus{
+		width: 50%;
+	}
+}

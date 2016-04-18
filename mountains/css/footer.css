@@ -1,0 +1,86 @@
+footer{
+	background: #3b5159;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+footer ul{
+	margin-bottom: 30px;
+}
+
+footer ul li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 3px;
+	line-height: 40px;
+	color: #fff;
+}
+
+footer ul li a{
+	color: #fff;
+	display: block;
+	font-size: 20px;
+}
+
+footer ul li a:hover{
+	color: #3B5159;
+}
+
+.twit{
+	background: #29c5f6;
+}
+
+.face{
+	background: #6788ce;
+}
+
+.vkon{
+	background: #54769a;
+}
+
+.copy{
+	color: #6c9dad;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.telephone{
+	color: #68a1b0;
+	font-weight: bold;
+	position: relative;
+}
+
+.telephone:before{
+	content: "Tel:";
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: -100%;
+	width: 100%;
+	color: #fff;
+	display: none;
+}
+
+.telephone:hover.telephone:before{
+	display: block;
+}
+
+@media screen and (min-width: 640px){
+		footer ul{
+		position: absolute;
+		top: -20px;
+		left: 50%;
+		transform:translateX(-50%);
+		margin-bottom: 0;
+	}
+
+	.copy{
+		float: left;
+		margin-bottom: 0;
+	}
+
+	.telephone{
+		float: right;
+	}
+}
